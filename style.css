@@ -170,7 +170,7 @@ h1{
                 margin:0 auto;
                 margin-right: 2%;
             }
-            .cont{
+            .slid{
                 margin:0 auto;
             }
         }
@@ -219,12 +219,12 @@ h1{
             .responsive-tree {
                 display: none;
             }
-            .h .social {
+            .h1 .social {
                 font-size: 20px;
                 margin:0 auto;
                 margin-right: 2%;
             }
-            .cont{
+            .slid{
                 margin:0 auto;
             }
         }
