@@ -150,12 +150,12 @@ h1{
                 margin-left: 0 auto;    
 
             }
-            .cont img{
+            .cont #is{
                 width: 150px;
 
             }
             
-            carousel-inner{
+           #is{
                 width: 150px;
             }
         }
@@ -173,11 +173,11 @@ h1{
                 margin-left: 0 auto;    
 
             }
-            .cont img{
+            .cont #is{
                 width: 150px;
 
             }
-            .carousel-inner{
+            #is {
                 width: 150px;
             
             }
@@ -198,7 +198,7 @@ h1{
                 width: 150px;
 
             }
-            carousel-inner{
+            #is {
                 width: 150px;
             }
         }
