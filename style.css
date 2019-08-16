@@ -147,6 +147,8 @@ h1{
             }
             .slid {
                 margin:0 auto;
+                margin-left: 0 auto;    
+
             }
             .slid img{
                 width: 150px;
@@ -164,6 +166,8 @@ h1{
             }
             .slid {
                 margin:0 auto;
+                margin-left: 0 auto;    
+
             }
             .slid img{
                 width: 150px;
@@ -180,6 +184,7 @@ h1{
             }
             .slid{
                 margin:0 auto;
+                margin-left: 0 auto;    
             }
             .slid img{
                 width: 150px;
@@ -227,21 +232,6 @@ h1{
             border: none;
         }
 
-        @media (max-width: 767px) {
-            .responsive-tree {
-                display: none;
-            }
-            .h1 .social {
-                font-size: 20px;
-                margin:0 auto;
-                margin-right: 2%;
-            }
-            .slid{
-                margin:0 auto;
-            }
-            .slid img{
-                width: 150px;
-
-            }
+        
         }
   
