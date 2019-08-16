@@ -154,6 +154,10 @@ h1{
                 width: 150px;
 
             }
+            
+            carousel-inner{
+                width: 150px;
+            }
         }
 
         /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -173,6 +177,10 @@ h1{
                 width: 150px;
 
             }
+            .carousel-inner{
+                width: 150px;
+            
+            }
         }
 
         /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -190,6 +198,9 @@ h1{
                 width: 150px;
 
             }
+            carousel-inner{
+                width: 150px;
+            }
         }
 
         @media screen and (max-width: 1024px) {
@@ -198,6 +209,7 @@ h1{
                 margin:0 auto;
                 margin-right: 2%;
             }
+          
 
         }
 
