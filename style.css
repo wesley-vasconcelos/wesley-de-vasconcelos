@@ -140,12 +140,12 @@ h1{
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
-            .h1 .social {
-                font-size: 20px;
+            .h1  {
+                font-size: 30px;
                 margin:0 auto;
                 margin-right: 2%;
             }
-            .slid{
+            .slid {
                 margin:0 auto;
             }
         }
