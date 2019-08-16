@@ -137,4 +137,83 @@ h1{
       width: 30%;
   }
 
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+            .h1 {
+                font-size: 14px;
+                margin:0 auto;
+                margin-right: 2%;
+            }
+        }
+
+        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+            .h1{
+                font-size: 9px;
+                margin:0 auto;
+                margin-right: 2%;
+    
+            }
+        }
+
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+            .h1 {
+                font-size: 7px;
+                margin:0 auto;
+                margin-right: 2%;
+            }
+        }
+
+        @media screen and (max-width: 1024px) {
+            .h1 {
+                font-size: 7px;
+                margin:0 auto;
+                margin-right: 2%;
+            }
+
+        }
+
+        @media screen and (min-width: 1250px) {
+            body {
+                margin: 0 auto;
+
+            }
+        }
+
+        .tree li a {
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .tree li a:hover,
+        .tree li a:hover+ul li a {
+            background: none;
+            border: none;
+        }
+
+        /*Connector styles on hover*/
+        .tree li a:hover+ul li::after,
+        .tree li a:hover+ul li::before,
+        .tree li a:hover+ul::before,
+        .tree li a:hover+ul ul::before {
+            border-color: #6C7A89;
+        }
+
+        .tree .init:before {
+            border: none;
+        }
+
+        @media (max-width: 767px) {
+            .responsive-tree {
+                display: none;
+            }
+            .h {
+                font-size: 7px;
+                margin:0 auto;
+                margin-right: 2%;
+            }
+        }
   
