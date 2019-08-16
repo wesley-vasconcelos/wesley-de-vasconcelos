@@ -148,6 +148,10 @@ h1{
             .slid {
                 margin:0 auto;
             }
+            .slid img{
+                width: 300px;
+
+            }
         }
 
         /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
