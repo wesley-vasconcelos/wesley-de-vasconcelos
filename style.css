@@ -185,11 +185,10 @@ h1{
    
 h1{
     font-size: 100px;
-    color:white;
+    text-color:white;
     text-shadow: 0.1em 0.1em #2f2da594;   
 }
    .h1 li{
-    color: white;
     text-shadow: 2px 2px 2px black;
 }
      
