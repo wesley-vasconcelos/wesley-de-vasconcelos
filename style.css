@@ -139,111 +139,17 @@ h1{
 
 
         /* All Mobile Sizes (devices and browser) */
-        @media only screen and (max-width: 767px) {
-            .h1  {
-                font-size: 9px;
-                margin:0 auto;
-                margin-right: 2%;
-            }
-            .slid {
-                margin:0 auto;
-                margin-left: 0 auto;    
-
-            }
-            .cont #is{
-                width: 150px;
-
-            }
-            
-           #is{
-                width: 150px;
-            }
-        }
-
-        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-        @media only screen and (min-width: 480px) and (max-width: 767px) {
-            .h1 {
-                font-size: 7px;
-                margin:0 auto;
-                margin-right: 2%;
-    
-            }
-            .slid {
-                margin:0 auto;
-                margin-left: 0 auto;    
-
-            }
-            .cont #is{
-                width: 150px;
-
-            }
-            #is {
-                width: 150px;
-            
-            }
-        }
-
-        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-        @media only screen and (max-width: 479px) {
-            .h1 .social {
-                font-size: 7px;
-                margin:0 auto;
-                margin-right: 2%;
-            }
-            .slid{
-                margin:0 auto;
-                margin-left: 0 auto;    
-            }
-            .cont img{
-                width: 150px;
-
-            }
-            #is {
-                width: 150px;
-            }
-        }
-
-        @media screen and (max-width: 1024px) {
-            .h1 .social {
-                font-size: 14px;
-                margin:0 auto;
-                margin-right: 2%;
-            }
-          
-
-        }
-
-        @media screen and (min-width: 1250px) {
-            body {
-                margin: 0 auto;
-
-            }
-        }
-
-        .tree li a {
-            border: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .tree li a:hover,
-        .tree li a:hover+ul li a {
-            background: none;
-            border: none;
-        }
-
-        /*Connector styles on hover*/
-        .tree li a:hover+ul li::after,
-        .tree li a:hover+ul li::before,
-        .tree li a:hover+ul::before,
-        .tree li a:hover+ul ul::before {
-            border-color: #6C7A89;
-        }
-
-        .tree .init:before {
-            border: none;
-        }
-
-        
-        }
-  
+        @media only screen and (min-width: 360px) and (max-width: 1024px) and (orientation-portrait){
+   body{
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      transform: rotate(90deg);
+      min-width: 100%;
+      min-height: 100%;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+   }
+}
