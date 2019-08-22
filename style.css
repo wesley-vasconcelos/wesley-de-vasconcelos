@@ -3,7 +3,6 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     overflow-x: hidden;
-    background-color: black;    
     font-family: 'Indie Flower', cursive;
     font-family: 'Dancing Script', cursive;
     font-family: 'Acme', sans-serif;
@@ -11,9 +10,8 @@ body{
     
 }
 .back{
-background-image: url('./chaves-computador-portatil-internet-60626.jpg');
-background-repeat: no-repeat;
-width: 100%;
+background-image: url('./12.jpg');
+background-repeat: repeat;
 background-size: 100%;
 overflow-x: hidden;
 margin-top: 1%;
@@ -46,13 +44,13 @@ margin-top: 1%;
 
 h1{
     font-size: 100px;
-    text-shadow: 0.1em 0.1em #2f2da594;
+    text-shadow: 0.05em 0.05em  goldenrod;
     
     
 }
 .h1 li{
     color: black;
-    text-shadow: 2px 2px 2px white;
+    text-shadow: goldenrod;
 }
 
 
@@ -73,7 +71,7 @@ h1{
 .social i{
     zoom: 4;
     color: rgb(15, 12, 12);
-    text-shadow: 0.1em 0.1em #2f2da594;
+    text-shadow: 0.1em 0.1em  goldenrod;
     
 }
 
@@ -133,14 +131,37 @@ h1{
 
 
 
-  h2 {
+  h2{
       font-size: 40px;
       margin-left: 30%;
+      color: goldenrod;
   }
 
   hr{
       width: 30%;
   }
+
+  .exp{
+    display: flex;  
+    justify-content: space-between;
+    margin: 5% 5% 5% 5%;
+  }
+
+  .exp1{
+      border: 1px solid white;
+      width: 30%;
+      color: white;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.548);
+      padding: 4%;
+  }
+  h3{
+      font-size: 30px;
+      color: goldenrod;
+  }
+
+
+
 
    
 @media   (max-width: 675px) and (max-width:1024px){
@@ -151,6 +172,16 @@ h1{
 h1{
     font-size:35px;
 
+ }
+ 
+ .exp{
+     display: flex;
+     flex-direction: column;
+     
+    }
+    .exp1{
+    margin-top: 2%;
+     width: 100%;
  }
      
 .slid {
@@ -182,10 +213,17 @@ h1{
         text-align: center;
     
      }
+    .front{
+        width: 70%;
+        left: 0 auto;
+    }
+    
+     .front li{
+        font-size:15px;
+   
+    }
      
-    .back{
-         display: none;
-     }      
+          
     .slid {
         margin-left: 0 auto;
         align-items: center;
@@ -198,7 +236,7 @@ h1{
     .social i{
         zoom: 2;
         position: absolute;
-        top: 20vh;
+        top: 15vh;
     }
     
     .infor{
