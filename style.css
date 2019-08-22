@@ -155,12 +155,18 @@ h1{
    }
             .h1{
             font-size:20px;
-            }
-            .slid{
-              position:absolut;
-              left:0 auto;  
                 
             }
+           
+            .cont{
+              position:absolut;
+              left:0 auto;
+              font-size: 12px;  
+            }
+            .slid {
+              margin-left: 0 auto;    
+              width: 350px;
+}
 }
 
 .modo-retrato{
