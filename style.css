@@ -177,7 +177,7 @@ h1{
         width:100%;
         left: 0 auto;
     }  
-    h1, li, h2{
+    h1,  h2{
         font-size:25px;
         text-align: center;
     
@@ -188,7 +188,7 @@ h1{
     text-color:white;
     text-shadow: 0.1em 0.1em #2f2da594;   
 }
-   .h1 li{
+  .h1 li{
     text-shadow: 2px 2px 2px black;
 }
      
