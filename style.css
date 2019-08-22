@@ -46,7 +46,9 @@ margin-top: 1%;
 
 h1{
     font-size: 100px;
-    text-shadow: 0.1em 0.1em #2f2da594;   
+    text-shadow: 0.1em 0.1em #2f2da594;
+    
+    
 }
 .h1 li{
     color: black;
@@ -145,13 +147,11 @@ h1{
 .h1, .cont,{
     width:100%;
     left: 0 auto;
-    
 }  
 h1{
     font-size:35px;
 
  }
-.
      
 .slid {
     margin-left: 0 auto; 
@@ -161,8 +161,6 @@ h1{
 }
 .social i{
     zoom: 2;
-    
-   
 }
 
 .infor{
@@ -179,17 +177,11 @@ h1{
         width:100%;
         left: 0 auto;
     }  
-    h1,  h2{
+    h1, ul, h2{
         font-size:25px;
         text-align: center;
     
      }
-   
-
-  .h1 li{
-    color:white;
-    text-shadow: 2px 2px 2px black;
-}
      
     .back{
          display: none;
