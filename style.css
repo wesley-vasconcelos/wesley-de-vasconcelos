@@ -11,8 +11,9 @@ body{
     
 }
 .back{
-background-image: url('../img/chaves-computador-portatil-internet-60626.jpg');
-background-repeat: repeat;
+background-image: url('./chaves-computador-portatil-internet-60626.jpg');
+background-repeat: no-repeat;
+width: 100%;
 background-size: 100%;
 overflow-x: hidden;
 margin-top: 1%;
@@ -44,7 +45,7 @@ margin-top: 1%;
 
 
 h1{
-    font-size: 2em;
+    font-size: 100px;
     text-shadow: 0.1em 0.1em #2f2da594;
     
     
@@ -77,7 +78,7 @@ h1{
 .cont {
     color:rgb(241, 233, 233);
     font-size: 25px;
-    margin: 2% 20% auto 20%;
+    margin: 4% 20% auto 20%;
     border: 2px solid rgb(14, 13, 13);
     border-radius: 1px;
     padding: 1%;
@@ -137,40 +138,70 @@ h1{
       width: 30%;
   }
 
+   
+@media   (max-width: 675px) and (max-width:1024px){
+.h1, .cont,{
+    width:100%;
+    left: 0 auto;
+}  
+h1{
+    font-size:35px;
 
-        /* All Mobile Sizes (devices and browser) */
-        @media only screen and (min-width: 360px) and (max-width: 1024px) and (orientation-portrait){
-   body{
-      -webkit-transform: rotate(90deg);
-      -moz-transform: rotate(90deg);
-      transform: rotate(90deg);
-      min-width: 100%;
-      min-height: 100%;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-       font-size: 20px;
-      position: absolute;
-   }
-            .h1{
-            font-size:20px;
-                
-            }
-           
-            .cont{
-              position:absolut;
-              left:0 auto;
-              font-size: 12px;  
-            }
-            .slid {
-              margin-left: 0 auto;    
-              width: 350px;
+ }
+     
+.slid {
+    margin-left: 0 auto; 
+    align-items: center;
+    width: 200px;
+    
 }
+.social i{
+    zoom: 2;
 }
 
-.modo-retrato{
-   -webkit-transform: rotate(90deg);
-   -moz-transform: rotate(90deg);
-   transform: rotate(90deg);
+.infor{
+    font-size: 15px;
 }
+
+}
+
+
+
+
+@media   (max-width: 375px) and (max-width:667px){
+    .h1, .cont,{
+        width:100%;
+        left: 0 auto;
+    }  
+    h1, ul, h2{
+        font-size:25px;
+        text-align: center;
+    
+     }
+     
+    .back{
+         display: none;
+     }      
+    .slid {
+        margin-left: 0 auto;
+        align-items: center;
+        width: 150px;
+        
+    }
+    .cont{
+         margin: 10% auto auto auto;   
+          }
+    .social i{
+        zoom: 2;
+        position: absolute;
+        top: 15vh;
+    }
+    
+    .infor{
+        font-size: 15px;
+    }
+    .front{
+        font-size: 25px;
+    }
+    
+    }
