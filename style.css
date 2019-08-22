@@ -150,6 +150,13 @@ h1{
       height: 100%;
       top: 0;
       left: 0;
+       font-size: 20px;
       position: absolute;
    }
+}
+
+.modo-retrato{
+   -webkit-transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   transform: rotate(90deg);
 }
