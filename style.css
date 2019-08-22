@@ -215,7 +215,7 @@ h1{
      }
      #h22{
         text-align: center; 
-        margin:5% ;
+        margin:5% auto auto 2% ;
 
      }
     .front{
@@ -226,6 +226,9 @@ h1{
      .front li{
         font-size:15px;
    
+    }
+    .front h2{
+    left:15%;
     }
     .h1 li{
         font-size:15px;
