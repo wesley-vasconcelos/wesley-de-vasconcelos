@@ -179,7 +179,7 @@ h1{
      flex-direction: column;
      
     }
-    .exp1{
+ .exp1{
     margin-top: 2%;
      width: 100%;
  }
@@ -213,9 +213,12 @@ h1{
         text-align: center;
     
      }
+     #h22{
+         margin:5% auto auto 2%; 
+     }
     .front{
-        width: 70%;
-        left: 0 auto;
+        width: 90%;
+        margin: 5% 0 0 5%;
     }
     
      .front li{
@@ -236,7 +239,7 @@ h1{
     .social i{
         zoom: 2;
         position: absolute;
-        top: 15vh;
+        top: 30vh;
     }
     
     .infor{
