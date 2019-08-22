@@ -49,8 +49,8 @@ h1{
     
 }
 .h1 li{
-    color: black;
-    text-shadow: goldenrod;
+    color: white;
+    text-shadow: 1px 1px goldenrod;
 }
 
 
