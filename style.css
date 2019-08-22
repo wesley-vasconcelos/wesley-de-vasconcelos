@@ -227,6 +227,11 @@ h1{
         font-size:15px;
    
     }
+    .h1 li{
+        font-size:15px;
+        
+    }
+    
      
           
     .slid {
@@ -241,8 +246,17 @@ h1{
     .social i{
         zoom: 2;
         position: absolute;
-        top: 25vh;
+        top: 15vh;
     }
+  .exp{
+     display: flex;
+     flex-direction: column;
+     
+    }
+ .exp1{
+    margin-top: 2%;
+     width: 100%;
+ }
     
     .infor{
         font-size: 15px;
