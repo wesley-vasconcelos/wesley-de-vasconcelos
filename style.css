@@ -204,6 +204,15 @@ h1{
 
 
 @media   (max-width: 375px) and (max-width:667px){
+    
+    body{
+    background-image: url('./caderno-caneca-codificacao-169573.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+    
+    
+    
     .h1, .cont,{
         width:100%;
         left: 0 auto;
