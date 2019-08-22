@@ -153,6 +153,14 @@ h1{
        font-size: 20px;
       position: absolute;
    }
+            .h1{
+            font-size:20px;
+            }
+            .slid{
+              position:absolut;
+              left:0 auto;  
+                
+            }
 }
 
 .modo-retrato{
