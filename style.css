@@ -46,9 +46,11 @@ margin-top: 1%;
 
 h1{
     font-size: 100px;
-    text-shadow: 0.1em 0.1em #2f2da594;
-    
-    
+    text-shadow: 0.1em 0.1em #2f2da594;   
+}
+.h1 li{
+    color: black;
+    text-shadow: 2px 2px 2px white;
 }
 
 
@@ -149,9 +151,7 @@ h1{
     font-size:35px;
 
  }
-.h1 li{
-    color:white;
-    }
+.
      
 .slid {
     margin-left: 0 auto; 
@@ -177,11 +177,15 @@ h1{
         width:100%;
         left: 0 auto;
     }  
-    h1, ul, h2{
+    h1, li, h2{
         font-size:25px;
         text-align: center;
     
      }
+   .h1 li{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
      
     .back{
          display: none;
