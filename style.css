@@ -143,11 +143,15 @@ h1{
 .h1, .cont,{
     width:100%;
     left: 0 auto;
+    
 }  
 h1{
     font-size:35px;
 
  }
+.h1 ul{
+    color:white;
+    }
      
 .slid {
     margin-left: 0 auto; 
